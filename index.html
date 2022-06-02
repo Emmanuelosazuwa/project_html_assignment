@@ -39,5 +39,162 @@
       <li>Muhammad Ali</li>
       <li>Lionel Messi</li>
     </ol>
+    <b><b></b></b>
+    <hr />
+    <hr />
+    <h2>Application form</h2>
+    <form action="/Application form">
+      <input
+        type="text"
+        placeholder="Enter Surame *"
+        name="usersurename"
+        required 
+        autofocus
+      />
+      <input
+        type="text"
+        placeholder="Enter First name *"
+        name="userfirstname"
+        required
+      />
+      <br />
+      <br />
+      <input
+        type="email"
+        placeholder="Email address*"
+        name="useremail"
+        required
+      />
+      <br />
+      <br />
+
+      <label><input type="number" /> Contact number</label>
+      <br />
+      <br />
+      <label
+        ><input type="date" name="Date of birth" /> Date of birth</label
+      >
+      <br />
+      <br />
+    <b><b></b></b>
+    <form action="/Application form">
+      <label for="Male"> Male </label
+      ><input
+        type="radio"
+        name="gender"
+        value="male"
+        id="male"
+        checked
+        disabled
+      />
+      <label for="Female">Female</label
+      ><input type="radio" name="gender" value="Female" id="Female" /><br />
+      <label for="Married">Married</label
+      ><input type="radio" name="Status" value="Married" id="Married" />
+      <label for="Single">Single</label
+      ><input
+        type="radio"
+        name="Status"
+        value="Single"
+        id="Single"
+        checked
+      /><br />
+      <label for="reminder">Reminder</label>
+      <input type="checkbox" id="reminder" name="reminder" checked disabled />
+      <label for="game">sports</label>
+      <input type="checkbox" name="sports" id="game" /> <br /><br>
+      <input type="color" />
+      <!--select /select box /dropdown
+      array-multiple data
+    loop-visit data from array and show in html-->
+      <select name="color" size="3" multiple >
+      <option value="">Select color--</option>
+      <option value="red">Red</option>
+      <option value="green">Green</option>
+      <option value="blue">Blue</option>
+      <option value="yellow">Yellow</option>
+      <option value="brown">Brown</option>
+      <option value="pink">Pink</option>
+      <option value="gray">Gray</option>
+    </select><br>
+      <input type="file" accept=".jpg" />
+      <label for="review">Review</label>
+      <textarea name="review" id="review" maxlength="50"  cols="50" rows="4">Tuesday, 31 May 2022</textarea
+      ><br><br><br>
+      <button type="submit">Submit form</button><br><br>
+    </form>
+      <hr><hr>
+      <h2>LINKS</h2>
+      <a href="https://www.linkedin.com/in/emmanuel-e-osazuwa-13878746/" target="_blank">Emmanuel linkedin profile</a><br>
+      <a href="https://www.facebook.com/emmanuel.e.osazuwa/" target="_blank">Emmanuel facebook profile</a><br>
+
+     <h2>Audio and Video</h2>
+      <p style="margin: 300px"></p>
+    <!--autoplay add to controls-->
+    <audio src="audio.mp3" type="audio/mpeg" controls></audio>
+    <!-- currently used today for audo-->
+    <audio controls muted><source src="audio.mp3" type="audio/mpeg" /></audio
+    ><br />
+    <video controls height="400" width="500" poster="images/Shrek-modified.png">
+      <source src="video.mp4" type="video/mp4" /><br>
+      <!--<video controls height="400" width="500"autoplay>
+        <video controls height="400" width="500"muted>
+          <video controls height="400" width="500"loop>-->
+    </video>
+      <hr>
+    
+    <h1>Information Table</h1>
+    
+    <table border="3">
+      <caption>Full Descriptions</caption>
+      <thead>
+      <tr>
+        <th>Heading</th>
+        <th>Surname</th>
+        <th>First name</th>
+        <th>Age</th>
+      </tr> 
+    </thead>
+    <tbody>
+      <tr>
+        <td>Users</td>
+        <td>James</td>
+        <td>Bond</td>
+        <td>20</td>
+      </tr>
+
+      <tr>
+        <td>New user</td>
+        <td>Osazxuwa</td>
+        <td>Emmanuel</td>
+        <td>10</td>
+      </tr>
+
+      <tr>
+        <td>New users2</td>
+        <td>Roger </td>
+        <td>Federer</td>
+        <td>50</td>
+      </tr>
+
+      <td colspan="4"> Total users : 3</td>
+      <tr>
+        <td rowspan="2">Data</td>
+        <td rowspan="2">Valid users</td>
+        <td>Emmanuel</td>
+        <td>20</td>
+      </tr>
+
+      <tr>
+        <td>James</td>
+        <td>20</td>
+      </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4">Welcome</td>
+        </tr>
+      </tfoot>
+    </table>
   </body>
 </html>
